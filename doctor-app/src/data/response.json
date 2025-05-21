@@ -1,0 +1,108 @@
+{
+    "session_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c",
+    "outputs": [
+        {
+            "inputs": {
+                "input_value": "Patient is prescribed Amoxicillin 500mg twice daily for 7 days.I am batamn, Order a CBC and CMP. Follow up in 2 weeks. Monitor for any allergic reactions. Patient also mentioned feeling fatigued"
+            },
+            "outputs": [
+                {
+                    "results": {
+                        "message": {
+                            "text_key": "text",
+                            "data": {
+                                "timestamp": "2025-04-16T06:43:01+00:00",
+                                "sender": "Machine",
+                                "sender_name": "AI",
+                                "session_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c",
+                                "text": "```json\n{\n  \"medicines\": [\n    {\n      \"name\": \"Amoxicillin\",\n      \"dosage\": \"500mg\",\n      \"frequency\": \"twice daily\",\n      \"duration\": \"for 7 days\",\n      \"route\": null\n    }\n  ],\n  \"lab_tests\": [\n    {\n      \"test_code\": \"CBC\",\n      \"test_name\": \"CBC\",\n      \"reason\": null\n    },\n    {\n      \"test_code\": \"CMP\",\n      \"test_name\": \"CMP\",\n      \"reason\": null\n    }\n  ],\n  \"instructions\": [\n    \"Monitor for any allergic reactions.\"\n  ],\n  \"follow_ups\": [\n    {\n      \"type\": null,\n      \"schedule\": \"in 2 weeks\",\n      \"reason\": null\n    }\n  ],\n  \"notes\": [\n    \"Patient mentioned feeling fatigued\"\n  ],\n  \"unparsed\": [\n    \"I am batamn\"\n  ]\n}\n```\n",
+                                "files": [],
+                                "error": false,
+                                "edit": false,
+                                "properties": {
+                                    "text_color": "",
+                                    "background_color": "",
+                                    "edited": false,
+                                    "source": {
+                                        "id": "GoogleGenerativeAIModel-6oPN1",
+                                        "display_name": "Google Generative AI",
+                                        "source": "gemini-1.5-pro-latest"
+                                    },
+                                    "icon": "GoogleGenerativeAI",
+                                    "allow_markdown": false,
+                                    "positive_feedback": null,
+                                    "state": "complete",
+                                    "targets": []
+                                },
+                                "category": "message",
+                                "content_blocks": [],
+                                "id": "ebb51089-00fb-4ee9-aaa2-c56bdcfc9f93",
+                                "flow_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c"
+                            },
+                            "default_value": "",
+                            "text": "```json\n{\n  \"medicines\": [\n    {\n      \"name\": \"Amoxicillin\",\n      \"dosage\": \"500mg\",\n      \"frequency\": \"twice daily\",\n      \"duration\": \"for 7 days\",\n      \"route\": null\n    }\n  ],\n  \"lab_tests\": [\n    {\n      \"test_code\": \"CBC\",\n      \"test_name\": \"CBC\",\n      \"reason\": null\n    },\n    {\n      \"test_code\": \"CMP\",\n      \"test_name\": \"CMP\",\n      \"reason\": null\n    }\n  ],\n  \"instructions\": [\n    \"Monitor for any allergic reactions.\"\n  ],\n  \"follow_ups\": [\n    {\n      \"type\": null,\n      \"schedule\": \"in 2 weeks\",\n      \"reason\": null\n    }\n  ],\n  \"notes\": [\n    \"Patient mentioned feeling fatigued\"\n  ],\n  \"unparsed\": [\n    \"I am batamn\"\n  ]\n}\n```\n",
+                            "sender": "Machine",
+                            "sender_name": "AI",
+                            "files": [],
+                            "session_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c",
+                            "timestamp": "2025-04-16T06:43:01+00:00",
+                            "flow_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c",
+                            "error": false,
+                            "edit": false,
+                            "properties": {
+                                "text_color": "",
+                                "background_color": "",
+                                "edited": false,
+                                "source": {
+                                    "id": "GoogleGenerativeAIModel-6oPN1",
+                                    "display_name": "Google Generative AI",
+                                    "source": "gemini-1.5-pro-latest"
+                                },
+                                "icon": "GoogleGenerativeAI",
+                                "allow_markdown": false,
+                                "positive_feedback": null,
+                                "state": "complete",
+                                "targets": []
+                            },
+                            "category": "message",
+                            "content_blocks": []
+                        }
+                    },
+                    "artifacts": {
+                        "message": "```json\n\n{\n\n  \"medicines\": [\n\n    {\n\n      \"name\": \"Amoxicillin\",\n\n      \"dosage\": \"500mg\",\n\n      \"frequency\": \"twice daily\",\n\n      \"duration\": \"for 7 days\",\n\n      \"route\": null\n\n    }\n\n  ],\n\n  \"lab_tests\": [\n\n    {\n\n      \"test_code\": \"CBC\",\n\n      \"test_name\": \"CBC\",\n\n      \"reason\": null\n\n    },\n\n    {\n\n      \"test_code\": \"CMP\",\n\n      \"test_name\": \"CMP\",\n\n      \"reason\": null\n\n    }\n\n  ],\n\n  \"instructions\": [\n\n    \"Monitor for any allergic reactions.\"\n\n  ],\n\n  \"follow_ups\": [\n\n    {\n\n      \"type\": null,\n\n      \"schedule\": \"in 2 weeks\",\n\n      \"reason\": null\n\n    }\n\n  ],\n\n  \"notes\": [\n\n    \"Patient mentioned feeling fatigued\"\n\n  ],\n\n  \"unparsed\": [\n\n    \"I am batamn\"\n\n  ]\n\n}\n\n```\n\n",
+                        "sender": "Machine",
+                        "sender_name": "AI",
+                        "files": [],
+                        "type": "object"
+                    },
+                    "outputs": {
+                        "message": {
+                            "message": "```json\n{\n  \"medicines\": [\n    {\n      \"name\": \"Amoxicillin\",\n      \"dosage\": \"500mg\",\n      \"frequency\": \"twice daily\",\n      \"duration\": \"for 7 days\",\n      \"route\": null\n    }\n  ],\n  \"lab_tests\": [\n    {\n      \"test_code\": \"CBC\",\n      \"test_name\": \"CBC\",\n      \"reason\": null\n    },\n    {\n      \"test_code\": \"CMP\",\n      \"test_name\": \"CMP\",\n      \"reason\": null\n    }\n  ],\n  \"instructions\": [\n    \"Monitor for any allergic reactions.\"\n  ],\n  \"follow_ups\": [\n    {\n      \"type\": null,\n      \"schedule\": \"in 2 weeks\",\n      \"reason\": null\n    }\n  ],\n  \"notes\": [\n    \"Patient mentioned feeling fatigued\"\n  ],\n  \"unparsed\": [\n    \"I am batamn\"\n  ]\n}\n```\n",
+                            "type": "text"
+                        }
+                    },
+                    "logs": {
+                        "message": []
+                    },
+                    "messages": [
+                        {
+                            "message": "```json\n\n{\n\n  \"medicines\": [\n\n    {\n\n      \"name\": \"Amoxicillin\",\n\n      \"dosage\": \"500mg\",\n\n      \"frequency\": \"twice daily\",\n\n      \"duration\": \"for 7 days\",\n\n      \"route\": null\n\n    }\n\n  ],\n\n  \"lab_tests\": [\n\n    {\n\n      \"test_code\": \"CBC\",\n\n      \"test_name\": \"CBC\",\n\n      \"reason\": null\n\n    },\n\n    {\n\n      \"test_code\": \"CMP\",\n\n      \"test_name\": \"CMP\",\n\n      \"reason\": null\n\n    }\n\n  ],\n\n  \"instructions\": [\n\n    \"Monitor for any allergic reactions.\"\n\n  ],\n\n  \"follow_ups\": [\n\n    {\n\n      \"type\": null,\n\n      \"schedule\": \"in 2 weeks\",\n\n      \"reason\": null\n\n    }\n\n  ],\n\n  \"notes\": [\n\n    \"Patient mentioned feeling fatigued\"\n\n  ],\n\n  \"unparsed\": [\n\n    \"I am batamn\"\n\n  ]\n\n}\n\n```\n\n",
+                            "sender": "Machine",
+                            "sender_name": "AI",
+                            "session_id": "a196cbe6-3a75-4cf0-b9e3-98e152353e7c",
+                            "stream_url": null,
+                            "component_id": "ChatOutput-4Hjn2",
+                            "files": [],
+                            "type": "text"
+                        }
+                    ],
+                    "timedelta": null,
+                    "duration": null,
+                    "component_display_name": "Chat Output",
+                    "component_id": "ChatOutput-4Hjn2",
+                    "used_frozen_result": false
+                }
+            ]
+        }
+    ]
+}

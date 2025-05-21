@@ -1,0 +1,42 @@
+{
+  "name": "doctor-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@tiptap/core": "^2.11.7",
+    "@tiptap/extension-highlight": "2.11.7",
+    "@tiptap/pm": "2.11.7",
+    "@tiptap/react": "^2.11.7",
+    "@tiptap/starter-kit": "^2.11.7",
+    "axios": "^1.8.4",
+    "fuse.js": "7.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-quill": "^2.0.0",
+    "slate": "^0.112.0",
+    "slate-dom": "^0.112.2",
+    "slate-react": "^0.112.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
